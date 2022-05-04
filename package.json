@@ -7,7 +7,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "generate": "yarn plop --plopfile ./generators/plopfile.js",
-    "lint": "eslint src --max-warnings=1"
+    "lint": "eslint src --max-warnings=4"
   },
   "lint-staged": {
     "src/**/*": [
